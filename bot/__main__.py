@@ -60,8 +60,8 @@ async def _start(event):
             f"Hi {event.sender.first_name}\n**How Are You?**",
             buttons=[
                 [
-                    Button.url("Developer", url="t.me/kaif_00z"),
-                    Button.url("Repo", url="https://github.com/kaif-00z/AutoAnimeBot/"),
+                    Button.url("Developer", url="t.me/NUMBER03ANURAG"),
+                    Button.url("Repo", url="https://graph.org/file/8476fc3add0973cc95682.jpg"),
                 ]
             ],
         )
