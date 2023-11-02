@@ -117,6 +117,7 @@ async def _skiped_ul(event):
     await asyncio.gather(
         *[
             geter("https://subsplease.org/rss/?r=720", index),
+            geter("https://subsplease.org/rss/?r=720", index),
             geter("https://subsplease.org/rss/?r=1080p", index),
         ]
     )
@@ -322,7 +323,7 @@ bot.loop.run_until_complete(notify_about_me())
 # Webhook for upload and other stuffs
 try:
     bot.loop.run_until_complete(
-        syst("https://subsplease.org/rss/?r=720", "https://subsplease.org/rss/?r=1080")
+        syst("https://subsplease.org/rss/?r=480", "https://subsplease.org/rss/?r=720", "https://subsplease.org/rss/?r=1080")
     )
 
     # loop
