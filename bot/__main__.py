@@ -116,7 +116,7 @@ async def _skiped_ul(event):
     REQUEST.append(True)
     await asyncio.gather(
         *[
-            geter("https://subsplease.org/rss/?r=720", index),
+            geter("https://subsplease.org/rss/?r=480", index),
             geter("https://subsplease.org/rss/?r=720", index),
             geter("https://subsplease.org/rss/?r=1080p", index),
         ]
